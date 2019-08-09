@@ -1,0 +1,61 @@
+/*CONFIGURACIONES GENERALES*/
+*{
+Margin: 0;
+Padding: 0;
+Box-sizing: border-box;}
+
+html{
+Background-color: #fff;
+Color: #555;
+font-family: 'Lato', 'Arial', sans-serif;
+Font-weight: 300;
+Font-size: 20px;
+Text-rendering: optimizeLegibility;
+}
+.row{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+/*SECCION PRINCIPAL*/
+
+.title{
+    display: inline-block;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited
+{
+    text-decoration: none;
+    color:#53686d;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.8s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active
+{
+    text-decoration: none;
+    color:#53686d;
+    border-bottom: 2px solid #313131;
+}
+
+.motto h1{
+    font-size: 1cm;
+    font-weight: 300;
+    padding-top: 50%;
+}
+.principal-image{
+    background-image: url();
+    background-size: contain;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
