@@ -155,9 +155,10 @@ p {
 /* IMAGES SECTION */
 /* --------------------------------*/
 
-.images {
-color:red; 
+/*.images {
+
 }
+*/
 
 .images-gallery {
     list-style: none;
@@ -268,4 +269,20 @@ cite img {
     border-radius: 50%;
     vertical-align: middle;
     margin-right: 10px;
+}
+/* --------------------------------*/
+/* CONTACT SECTION */
+/* --------------------------------*/
+
+.contact-title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact-title h2 {
+    font-size: 2em;
+    text-align: center;
 }
