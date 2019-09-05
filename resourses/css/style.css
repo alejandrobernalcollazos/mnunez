@@ -219,3 +219,19 @@ p {
     padding: 2%;
     margin-bottom: 5%;
 }
+/* --------------------------------*/
+/* CONTACT SECTION */
+/* --------------------------------*/
+
+.contact-title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact-title h2 {
+    font-size: 2em;
+    text-align: center;
+}
