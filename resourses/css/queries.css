@@ -191,3 +191,15 @@
         }
     
     }
+   
+@media only screen and (max-width: 568px) {
+
+    /* --------------------------------*/
+    /* Images section */
+    /* --------------------------------*/
+
+    .images-gallery li {
+        width: 100%;
+    }
+
+}
