@@ -229,3 +229,20 @@
                 text-align: center;
             }
         }
+
+        @media only screen and (max-width: 1024px) {
+                /* --------------------------------*/
+                /* Footer section */
+                /* --------------------------------*/
+            
+                .footer-main-nav {
+                    display: none;
+                }
+            
+                .footer-icon {
+                    width: 50%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    font-size: 400%;
+                }
+             }
