@@ -286,3 +286,52 @@ cite img {
     font-size: 2em;
     text-align: center;
 }
+/* --------------------------------*/
+/* FOOTER SECTION */
+/* --------------------------------*/
+
+.footer {
+    background-color: #393939;
+}
+
+.footer-main-nav {
+    float: left;
+    list-style: none;
+    margin-top: 5%;
+    margin-left: 10px;
+    
+}
+
+.footer-main-nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footer-main-nav li a:link,
+.footer-main-nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1em;
+}
+
+.footer-icon {
+    font-size: 300%;
+    display: inline-block;
+    color: #000;
+    margin-top: 2.5%;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    text-align: center;
+    float: right;
+}
+
+.rights {
+    color: #fff;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 3%;
+}
