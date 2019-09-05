@@ -156,7 +156,7 @@ p {
 /* --------------------------------*/
 
 .images {
-
+color:red; 
 }
 
 .images-gallery {
@@ -218,4 +218,54 @@ p {
 .experience-box {
     padding: 2%;
     margin-bottom: 5%;
+}
+/* --------------------------------*/
+/* TESTIMONIES SECTION */
+/* --------------------------------*/
+
+.testimony {
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/office-background.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.testimony h2 {
+    color: #fff;
+}
+
+.testimony-title {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.testimony-title h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 400%;
+}
+
+blockquote {
+    font-style: italic;
+    line-height: 145%;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
 }
