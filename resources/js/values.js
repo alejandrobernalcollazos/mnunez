@@ -18,7 +18,7 @@ app.appendChild(row1);
 app.appendChild(row2);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://ghibliapi.herokuapp.com/films', true);
+request.open('GET', 'https://mnunez2.devopscba.com/attitudes', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
