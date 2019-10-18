@@ -131,9 +131,20 @@ p {
     float: right;
     overflow: hidden;
 }
+
 /* --------------------------------*/
 /* VALUES SECTION */
 /* --------------------------------*/
+
+.values-box {
+    height: 200px;
+    margin-left: 1.2%;
+    padding: 1%;
+}
+
+.values-box:first-child {
+    margin-left: 1%;
+}
 
 .values {
     background-color: #f4f4f4;
@@ -151,14 +162,14 @@ p {
     font-size: 2em;
     text-align: center;
 }
+
 /* --------------------------------*/
 /* IMAGES SECTION */
 /* --------------------------------*/
 
-/*.images {
+.images {
 
 }
-*/
 
 .images-gallery {
     list-style: none;
@@ -199,6 +210,7 @@ p {
     height: 0;
     visibility: hidden;
 }
+
 /* --------------------------------*/
 /* EXPERIENCIE SECTION */
 /* --------------------------------*/
@@ -220,6 +232,7 @@ p {
     padding: 2%;
     margin-bottom: 5%;
 }
+
 /* --------------------------------*/
 /* TESTIMONIES SECTION */
 /* --------------------------------*/
@@ -270,6 +283,7 @@ cite img {
     vertical-align: middle;
     margin-right: 10px;
 }
+
 /* --------------------------------*/
 /* CONTACT SECTION */
 /* --------------------------------*/
@@ -286,6 +300,7 @@ cite img {
     font-size: 2em;
     text-align: center;
 }
+
 /* --------------------------------*/
 /* FOOTER SECTION */
 /* --------------------------------*/
